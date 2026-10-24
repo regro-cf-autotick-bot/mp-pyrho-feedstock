@@ -1,13 +1,13 @@
 {% set name = "mp-pyrho" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: f77fd7383d08f07c94896885fb6183413a8ff0befa3dca9791db0bdf4dd02d58
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 11fd416a1e505ef7e083940c73a37ce3fff6230fa60b2f6f9348925f00cd0107
 
 build:
   number: 0
